@@ -18,7 +18,7 @@ export default function Toast({
   return (
     <>
       {isToastVisible && (
-        <div className="bg-zinc-800 w-80 h-12 rounded-full ring-2 ring-white/30 shadow-xl fixed top-4 pill-animation">
+        <div className="bg-zinc-800 w-80 h-12 rounded-full ring-2 ring-white/30 shadow-xl fixed top-4 pill-animation z-50">
           <div className="flex justify-between items-center h-full w-full px-2 gap-4 inner-animation">
             <img src="/favicon.ico" alt="" className=" rounded-full h-9 w-9" />
             <p className="text-zinc-400 font-medium">{heading}</p>
