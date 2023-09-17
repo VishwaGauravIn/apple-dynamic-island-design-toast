@@ -5,11 +5,11 @@
 
 # Preview
 
-![image](https://github.com/VishwaGauravIn/apple-dynamic-island-design-toast/assets/81325730/8c40e9cc-83e6-4dfd-a01f-4ccaa0390881)
-![image](https://github.com/VishwaGauravIn/apple-dynamic-island-design-toast/assets/81325730/ebfb5dfb-39ca-43b0-af10-58b5068e15c1)
-![image](https://github.com/VishwaGauravIn/apple-dynamic-island-design-toast/assets/81325730/a45b36c8-624e-4c37-8e19-6b80ea9b0938)
-![image](https://github.com/VishwaGauravIn/apple-dynamic-island-design-toast/assets/81325730/4df515e5-d385-44c6-849e-f16f43bc5b1e)
-![image](https://github.com/VishwaGauravIn/apple-dynamic-island-design-toast/assets/81325730/8184ce61-c399-4de7-bc8f-8701572e72b1)
+![image](https://raw.githubusercontent.com/VishwaGauravIn/apple-dynamic-island-design-toast/master/public/Screenshot%202023-09-18%20044337.png)
+![image](https://raw.githubusercontent.com/VishwaGauravIn/apple-dynamic-island-design-toast/master/public/Screenshot%202023-09-18%20044357.png)
+![image](https://raw.githubusercontent.com/VishwaGauravIn/apple-dynamic-island-design-toast/master/public/Screenshot%202023-09-18%20044415.png)
+![image](https://raw.githubusercontent.com/VishwaGauravIn/apple-dynamic-island-design-toast/master/public/Screenshot%202023-09-18%20044146.png)
+![image](https://raw.githubusercontent.com/VishwaGauravIn/apple-dynamic-island-design-toast/master/public/Screenshot%202023-09-18%20044310.png)
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
