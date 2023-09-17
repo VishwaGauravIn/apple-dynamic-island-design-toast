@@ -1,3 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.inner-animation {
+  animation: innerAnimation 5s ease-in-out;
+}
+
+@keyframes innerAnimation {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 0;
+  }
+  11% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  97% {
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+.pill-animation {
+  animation: pillAnimation 5s ease-in-out;
+}
+
+@keyframes pillAnimation {
+  0% {
+    width: 0rem;
+    height: 0rem;
+    top: 2rem;
+  }
+  5% {
+    width: 21rem;
+    height: 3rem;
+  }
+  7% {
+    width: 20rem;
+    height: 3rem;
+    top: 1rem;
+  }
+  92% {
+    scale: 1;
+  }
+  100% {
+    scale: 0;
+  }
+}
+
+/* .horizontal-spin {
+  animation: horizontal-spin 0.5s linear;
+}
+
+@keyframes horizontal-spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+} */
