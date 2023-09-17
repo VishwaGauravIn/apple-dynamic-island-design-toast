@@ -1,5 +1,6 @@
 import Toast from "@/components/Toast";
 import React, { useEffect, useState } from "react";
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 
 export default function index() {
   const [isToastVisible, setIsToastVisible] = useState(false);
@@ -68,6 +69,19 @@ export default function index() {
         >
           Show Error Toast
         </button>
+      </div>
+      <div className="absolute bottom-4 flex flex-col items-center">
+        <p className="flex">
+          Fork on&nbsp;
+          <a
+            href="https://github.com/VishwaGauravIn/apple-dynamic-island-design-toast"
+            className="text-blue-500 underline underline-offset-2 flex justify-center items-center"
+          >
+            GitHub
+            <ArrowTopRightOnSquareIcon className="w-5 h-5 inline-block ml-1" />
+          </a>
+        </p>
+        <p className="text-sm mt-2 opacity-75">{`</> with 💛 by Vishwa Gaurav`}</p>
       </div>
     </main>
   );
