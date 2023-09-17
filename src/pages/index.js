@@ -2,7 +2,7 @@ import Toast from "@/components/Toast";
 import React, { useEffect, useState } from "react";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 
-export default function index() {
+export default function Index() {
   const [isToastVisible, setIsToastVisible] = useState(false);
   const [toastVarient, setToastVarient] = useState("success");
   const [toastHeading, setToastHeading] = useState("Notification Header");
